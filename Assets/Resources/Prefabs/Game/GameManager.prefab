@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1949546203588216}
+  m_IsPrefabParent: 1
+--- !u!1 &1949546203588216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4607729089933556}
+  - component: {fileID: 114046378864439462}
+  - component: {fileID: 114959586376535838}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4607729089933556
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949546203588216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114046378864439462
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949546203588216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c3605171b84e49c3b23f4f0b5c0bf19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shouldEndGameOnTime: 1
+  shouldGeneratePlayersViaGameManager: 1
+  roundTime: 30
+  playerPrefab: {fileID: 0}
+  numberOfPlayers: 1
+  p1: {fileID: 0}
+  p2: {fileID: 0}
+  p3: {fileID: 0}
+  p4: {fileID: 0}
+  winningPlayer: {fileID: 0}
+  p1UI: {fileID: 0}
+  p2UI: {fileID: 0}
+  p3UI: {fileID: 0}
+  p4UI: {fileID: 0}
+  timeUI: {fileID: 0}
+  glu: {fileID: 114804854059690866, guid: aa2413b8e7eab4aa1bf70eea99a0903c, type: 2}
+--- !u!114 &114959586376535838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1949546203588216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c81b5f05982da3740a4c64693a7f6fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pickUps:
+  - {fileID: 1592439542226598, guid: 2272723739b5c184e99c961cc2187bbc, type: 2}
+  - {fileID: 1441921609051410, guid: b7e87fe485d7f164eac4574420ec917f, type: 2}

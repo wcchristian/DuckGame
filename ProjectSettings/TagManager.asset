@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - DuckButton
+  - PowerUp
+  - bread
+  - turtle
+  - quack
+  - ducklings
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Duck
+  - Pond
+  - BgWater
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: pond
+    uniqueID: 2181002853
+    locked: 0
+  - name: wave
+    uniqueID: 591267459
+    locked: 0
+  - name: ground
+    uniqueID: 539155791
+    locked: 0
+  - name: duck particle
+    uniqueID: 3939312145
+    locked: 0
+  - name: pick-ups
+    uniqueID: 2541298909
+    locked: 0
+  - name: ducks
+    uniqueID: 2846584593
+    locked: 0
+  - name: explosion
+    uniqueID: 331321125
+    locked: 0
+  - name: UI
+    uniqueID: 818507683
+    locked: 0
